@@ -1,0 +1,36 @@
+@media screen and (min-width: 768px) {
+    .footer-content {
+      flex-direction: row;
+    }
+  
+    .footer p {
+      margin-right: 20px;
+    }
+  }
+
+
+  @media screen and (max-width: 768px) {
+    header{
+        height: 200px;
+    }
+
+    nav {
+      display: block;
+      
+
+    }
+  
+    nav ul {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    nav li {
+      margin: 5px 0;
+    }
+  
+    #menu-toggle:checked + label.menu-icon {
+      background-color: #444;
+    }
+  }
