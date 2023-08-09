@@ -30,16 +30,48 @@
         </div>
     </header>
  
-    <section class="section">
-        <div class="img">
-            <h3>საკონტაქტო</h3>
-            <p>mail</p>
-            <p>number</p>
+<section class="contact-med">
+    <link href="contact-form.css" rel="stylesheet">
+
+    <div class="contact-body">
+    
+        <div id="contact-form-container">
+        <h3 class="form-heading">ჩვენი კონტაქტი</h3>
+    
+        <form id="contact-form" class="custom-form" method="post" action="contact-form-process.php">
             
+            <div class="input-group">
+                <label for="Name" class="input-label">თქვენი სახელი</label>
+                <div class="input-wrapper">
+                    <input type="text" id="Name" name="Name" class="input-field" required>
+                </div>
+            </div>
+    
+            <div class="input-group">
+                <label for="Email" class="input-label">თქვენი ელექტრონული ფოსტა</label>
+                <div class="input-wrapper">
+                    <input type="email" id="Email" name="Email" class="input-field" required>
+                </div>
+            </div>
+    
+            <div class="input-group">
+                <label for="Message" class="input-label">თქვენი მესიჯი</label>
+                <div class="input-wrapper">
+                    <textarea id="Message" name="Message" class="input-field" rows="6" maxlength="3000" required></textarea>
+                </div>
+            </div>
+    
+            <div class="action-buttons">
+                <button type="submit" id="fcf-button" class="submit-btn primary-btn btn-lg btn-block">Send Message</button>
+            </div>
+    
+    
+        </form>
         </div>
-        <section class="sekcia" >
-            <h1>heeee</h1>
-        </section>
+    
+    </div>
+    
+</section>
     
 </body>
 </html>
