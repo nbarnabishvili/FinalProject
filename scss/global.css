@@ -86,6 +86,68 @@ a {
     background-color: #444;
   }
 }
+@media (max-width: 1230px) {
+  .container {
+    width: 90%;
+  }
+}
+@media (max-width: 800px) {
+  nav {
+    display: none;
+  }
+  .fa-house {
+    display: inline-block;
+  }
+}
+@media (max-width: 768px) {
+  .sec-2 {
+    display: inline;
+    padding-left: 20px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .footer-content {
+    flex-direction: row;
+  }
+  .footer p {
+    margin-right: 20px;
+  }
+}
+@media screen and (max-width: 768px) {
+  header {
+    height: 200px;
+  }
+  nav {
+    display: block;
+  }
+  nav ul {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  nav li {
+    margin: 5px 0;
+  }
+  #menu-toggle:checked + label.menu-icon {
+    background-color: #444;
+  }
+}
+@media (max-width: 767px) {
+  .footer-col {
+    width: 50%;
+    margin-bottom: 30px;
+  }
+}
+@media (max-width: 574px) {
+  .footer-col {
+    width: 100%;
+  }
+}
+@media (max-width: 600px) {
+  .teqsti {
+    width: auto;
+  }
+}
 header {
   width: 100%;
   height: 80px;
@@ -150,11 +212,11 @@ section {
   background-repeat: no-repeat;
 }
 .section .img h3 {
-  color: cadetblue;
+  color: #FAD5A5;
   font-size: 60px;
-  font-weight: 300;
+  font-weight: 600;
+  font-family: "BPG Irubaqidze", sans-serif;
 }
-
 .logo {
   font-size: 24px;
   flex: 1;
@@ -317,11 +379,29 @@ nav a {
   background-size: cover;
   background-repeat: no-repeat;
 }
+.image-container .image-text h1 {
+  font-size: 70px;
+  font-weight: 600;
+  color: #A4E0EB;
+  font-family: "BPG Mikheil Stefane", sans-serif;
+}
+
 .teqsti {
-  width: 600px;
+  width: 650px;
   margin-left: 30px;
   display: inline-block;
   float: left;
+}
+.teqsti h1 {
+  font-size: 40px;
+  color: navy;
+  font-family: "BPG Irubaqidze", sans-serif;
+  margin-bottom: 10px;
+}
+.teqsti p {
+  color: #818589;
+  font-family: "ALK Rounded Nusx Med", sans-serif;
+  letter-spacing: 1px;
 }
 
 .image-container {
@@ -387,25 +467,22 @@ nav a {
   float: right;
   margin-left: 40px;
 }
-
-.card-content {
+.car-container .card-content {
   width: 180px;
   margin-bottom: 50px;
 }
-
-.card-content img {
+.car-container .card-content img {
   width: 100%;
   margin-bottom: 23px;
 }
-
-.card-content h3 {
+.car-container .card-content h3 {
   color: #343232;
   font-size: 19px;
   font-family: Helvetica;
   margin-bottom: 9px;
+  font-weight: 600;
 }
-
-.card-content p {
+.car-container .card-content p {
   color: #636060;
   font-size: 18px;
   font-family: Helvetica;
@@ -471,9 +548,10 @@ header .container .header ul .h2 {
 }
 
 .pls {
-  float: right;
+  width: 630px;
   display: flex;
   flex-wrap: wrap;
+  margin-left: auto;
 }
 
 @media screen and (min-width: 768px) {
@@ -589,7 +667,6 @@ ul {
   background-color: #ffffff;
 }
 
-/*responsive*/
 @media (max-width: 767px) {
   .footer-col {
     width: 50%;
@@ -600,4 +677,96 @@ ul {
   .footer-col {
     width: 100%;
   }
+}
+@media (max-width: 748px) {
+  .teqsti {
+    width: auto;
+  }
+}
+.cc {
+  margin-left: 30px;
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: auto;
+  justify-content: space-around;
+}
+
+.image-container1 {
+  position: relative;
+  display: flex;
+}
+.image-container1 .image-text1 {
+  width: 100%;
+  height: 800px;
+  display: flex;
+  background-image: url(../images/gurgeniani.jpg);
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.image-container1 .image-text1 h1 {
+  font-size: 70px;
+  font-weight: 600;
+  color: #96DED1;
+  font-family: "BPG Mikheil Stefane", sans-serif;
+}
+
+.teqsti1 {
+  width: 650px;
+  margin-left: 30px;
+  display: inline-block;
+  float: left;
+}
+.teqsti1 h1 {
+  font-size: 40px;
+  color: #93C572;
+  font-family: "BPG Irubaqidze", sans-serif;
+  margin-bottom: 10px;
+}
+.teqsti1 p {
+  color: #818589;
+  font-family: "ALK Rounded Nusx Med", sans-serif;
+  letter-spacing: 1px;
+}
+
+.image-container2 {
+  position: relative;
+  display: flex;
+}
+.image-container2 .image-text2 {
+  width: 100%;
+  height: 800px;
+  display: flex;
+  background-image: url(../images/gremi\ mtavari.jpg);
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.image-container2 .image-text2 h1 {
+  font-size: 70px;
+  font-weight: 600;
+  color: #96DED1;
+  font-family: "BPG Mikheil Stefane", sans-serif;
+}
+
+.teqsti2 {
+  width: 650px;
+  margin-left: 30px;
+  display: inline-block;
+  float: left;
+}
+.teqsti2 h1 {
+  font-size: 40px;
+  color: #F0E68C;
+  font-family: "BPG Irubaqidze", sans-serif;
+  margin-bottom: 10px;
+}
+.teqsti2 p {
+  color: #818589;
+  font-family: "ALK Rounded Nusx Med", sans-serif;
+  letter-spacing: 1px;
 }/*# sourceMappingURL=global.css.map */
