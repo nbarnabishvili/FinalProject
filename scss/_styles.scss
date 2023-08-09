@@ -472,7 +472,6 @@ header{
 
 .pls{
   width: 630px;
-
   display: flex;
   flex-wrap: wrap;
   margin-left: auto;
@@ -609,7 +608,7 @@ ul{
   margin-left: 30px;
   display: flex;
   flex-wrap: wrap;
-  margin-top: auto;
+
   justify-content: space-around;
 }
 
@@ -847,5 +846,144 @@ input[type="submit"].btn-block, input[type="reset"].btn-block, input[type="butto
 @media (max-width :760px){
   .contact-med{
     margin-top: 200px;
+  }
+}
+
+.image-container3 {
+  position: relative;
+  display: flex;
+  .image-text3 {
+    width: 100%;
+    height: 800px;
+    display: flex;
+    background-image: url(../images/alaverdi\ mtavari.jpg);
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-size: cover;
+    background-repeat: no-repeat;
+    h1{
+      font-size: 70px;
+      font-weight: 600;
+      color: #96DED1;
+      font-family: "BPG Mikheil Stefane", sans-serif;
+
+    }
+
+}
+}
+
+
+.teqsti3{
+  width: 650px;
+  margin-left: 30px;
+  display: inline-block;
+  float: left;
+  h1{
+    font-size: 40px;
+    color: #922B21;
+    font-family: "BPG Irubaqidze", sans-serif;
+    margin-bottom: 10px;
+  }
+  p{
+    color: #818589;
+    font-family: "ALK Rounded Nusx Med", sans-serif;
+    letter-spacing: 1px;
+  }
+}
+.image-container4 {
+  position: relative;
+  display: flex;
+  .image-text4 {
+    width: 100%;
+    height: 800px;
+    display: flex;
+    background-image: url(../images/iyalto\ mtavari.jpg);
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-size: cover;
+    background-repeat: no-repeat;
+    h1{
+      font-size: 70px;
+      font-weight: 600;
+      color: #96DED1;
+      font-family: "BPG Mikheil Stefane", sans-serif;
+
+    }
+
+}
+}
+
+
+.teqsti4{
+  width: 650px;
+  margin-left: 30px;
+  display: inline-block;
+  float: left;
+  h1{
+    font-size: 40px;
+    color: #922B21;
+    font-family: "BPG Irubaqidze", sans-serif;
+    margin-bottom: 10px;
+  }
+  p{
+    color: #818589;
+    font-family: "ALK Rounded Nusx Med", sans-serif;
+    letter-spacing: 1px;
+  }
+}
+
+@media (max-width :1311px){
+  .pls{
+    width: auto;
+  }
+}
+
+@media (max-width :1220px){
+  .pls{
+    display: inline;
+  }
+}
+.image-container5 {
+  position: relative;
+  display: flex;
+  .image-text5 {
+    width: 100%;
+    height: 800px;
+    display: flex;
+    background-image: url(../images/nekresi\ mtavari.jpg);
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-size: cover;
+    background-repeat: no-repeat;
+    h1{
+      font-size: 70px;
+      font-weight: 600;
+      color: #96DED1;
+      font-family: "BPG Mikheil Stefane", sans-serif;
+
+    }
+
+}
+}
+
+
+.teqsti5{
+  width: 650px;
+  margin-left: 30px;
+  display: inline-block;
+  float: left;
+  h1{
+    font-size: 40px;
+    color: #922B21;
+    font-family: "BPG Irubaqidze", sans-serif;
+    margin-bottom: 10px;
+  }
+  p{
+    color: #818589;
+    font-family: "ALK Rounded Nusx Med", sans-serif;
+    letter-spacing: 1px;
   }
 }
